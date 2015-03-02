@@ -1,0 +1,74 @@
+1. The Python interpreter has strict rules for variable names. Which of the following are
+legal Python names? If the name is not legal, state the reason.
+
+and
+This is a comparator statement in python hence it cannot be used as a variable name.
+
+_and
+Legal Python name.
+
+var
+Legal Python name.
+
+var1
+Legal Python name.
+
+1var
+This is not a legal variable name because it starts with a number not a letter.
+
+my-name
+_ is the only symbol that can be used in variables. 
+
+your_name
+Legal Python name.
+
+COLOR
+Legal Python name.
+
+2. Python automatically infers the type from the value you assign to the variable. What
+is the type of the value stored in each of the variables below. 
+
+a = False
+bool
+
+b = 3.7
+float
+
+c = ‘Alex‘
+string (str)
+
+d = 7
+integer (int)
+
+e = ‘True‘
+str
+
+f = 17j
+complex
+
+g = ‘17‘
+str
+
+h = True
+bool
+
+i = ’3.14159’
+str
+
+3. What is the value (True or False) produced by each expression below, using the
+initial values of the variables a = False, b = True, and c = False. 
+
+b and c
+False
+
+b or c
+True
+
+not a and b
+True
+
+(a and b) or not c
+True
+
+not b and not (a or c)
+False
